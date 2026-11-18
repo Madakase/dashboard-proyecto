@@ -16,11 +16,11 @@ function App() {
 
             {/* Alertas */}
             <Grid size={{ xs: 12, md: 12 }}
-            container sx={{ justifyContent: 'flex-end', alignItems: 'center' }}>
+                container sx={{ justifyContent: 'flex-end', alignItems: 'center' }}>
 
-            <AlertUI description="No se prevén lluvias" />Elemento: Alertas</Grid>
+                <AlertUI description="No se prevén lluvias" />Elemento: Alertas
+            </Grid>
 
-            {/* Selector */}
             {/* Selector */}
             <Grid size={{ xs: 12, md: 3 }}>
                 <SelectorUI />
